@@ -31,7 +31,6 @@ function Navbar() {
         style={{ backgroundColor: "#063da3" }}
       >
         <div className="container-fluid">
-
           {/* Left Side: Brand */}
           <a
             className="navbar-brand text-light"
