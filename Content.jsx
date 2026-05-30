@@ -71,7 +71,6 @@ function Content() {
       >
         Enroll Now
       </button>
-
       {/* Background Image */}
       <img
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
