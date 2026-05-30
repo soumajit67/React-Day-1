@@ -78,7 +78,6 @@ function Footer() {
                                 <label htmlFor="newsletter1" className="visually-hidden">
                                     Email address
                                 </label>
-
                                 <input
                                     id="newsletter1"
                                     type="email"
