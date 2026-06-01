@@ -8,4 +8,4 @@ React does not handle routing, HTTP, or styling out of the box. It is just the v
 
 JSX is another key part. It looks like HTML inside JavaScript, which lets you write markup and logic together. Under the hood, JSX compiles to React.createElement calls. Since version 16.8, hooks made function components powerful enough that class components are rarely needed.
 
-Overall, React’s component model, virtual DOM, and large community make it a practical choice for interactive web apps. You get reusability, good performance, and a huge ecosystem, while keeping the core library focused and relatively small.
+Overall, React’s component model, virtual DOM, and large community make it a practical choice for interactive web apps. 
