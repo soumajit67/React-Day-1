@@ -8,38 +8,30 @@ function Content() {
     <div style={{ position: "relative", width: "100%", height: "700px" }}>
       {/* Text Element Overlay */}
       
-      <h1
-        style={{
-          position: "absolute",
-          top: "38%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          color: "#ffffff",
-          fontSize: "3rem",
-          fontWeight: "bold",
-          fontFamily: "sans-serif",
-          textShadow: "2px 2px 8px rgba(0, 0, 0, 0.7)",
-          margin: 0,
-          zIndex: 1,
-        }}
-      >
-        Learn <span style={{ color: "Yellow", fontWeight: "bold" }}>MERN</span> Stack
-      </h1>
-      <h2
-        style={{
-          position: "absolute",
-          top: "46%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          color: "#ffffff",
-          fontSize: "1.5rem",
-          fontWeight: "normal",
-          fontFamily: "times new roman",
-          textShadow: "1px 1px 4px rgba(0, 0, 0, 0.7)",
-          margin: 0,
-          zIndex: 1,
-        }}
-      >
+<h1
+    style={{
+      color: "#ffffff",
+      fontSize: "clamp(2rem, 5vw, 3rem)", // responsive font size
+      fontWeight: "bold",
+      fontFamily: "system-ui, -apple-system, sans-serif",
+      textShadow: "2px 2px 8px rgba(0, 0, 0, 0.7)",
+      margin: "0 0 0.5rem 0",
+    }}
+  >
+    Learn <span style={{ color: "#FFD700", fontWeight: "bold" }}>MERN</span> Stack
+  </h1>
+  <h2
+    style={{
+      color: "#ffffff",
+      fontSize: "clamp(1.1rem, 3vw, 1.5rem)",
+      fontWeight: 400,
+      fontFamily: '"Times New Roman", Times, serif',
+      textShadow: "1px 1px 4px rgba(0, 0, 0, 0.7)",
+      margin: 0,
+    }}
+  >
+    Full Stack Development with MongoDB, Express, React & Node
+  </h2>
         Master the Full-Stack Development
       </h2>
 
