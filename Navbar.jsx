@@ -56,14 +56,14 @@ function Navbar() {
           </a>
 
           {/* Toggle Button */}
-          <button
-            className="navbar-toggler bg-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarContent"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+            <button
+              className="navbar-toggler d-lg-none ms-auto"  // hide on lg+, push to right
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarContent"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
 
           {/* Navbar Content */}
           <div className="collapse navbar-collapse" id="navbarContent">
